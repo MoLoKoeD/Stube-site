@@ -1,0 +1,429 @@
+
+@media (max-width: 1350px) {
+
+
+  .text__animation {
+    display: none;
+  }
+
+  .intro {
+    max-height: 100%;
+    min-height: 100vh;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .main {
+    background-image: linear-gradient(147.25deg, rgba(0, 0, 0, 0.3) 28.09%, rgba(0, 0, 0, 0) 51.8%), url(../image/Фото\ на\ 1-й\ экарн\ .jpg);
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .main__left {
+    flex-direction: column;
+  }
+
+  .main__bottom {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .main__logo {
+    margin-right: 50px;
+    padding: 0;
+  }
+
+  .main__logo__title {
+    font-size: 16px;
+    line-height: 14px;
+    padding: 14px 12px;
+    margin-bottom: 42px;
+    letter-spacing: 0.22em;
+  }
+
+  .logo__svg {
+    width: 235px;
+    height: 115px;
+  }
+
+  .text__contacts {
+    font-size: 20px;
+    line-height: 22px;
+    width: 35%;
+  }
+
+  .brend__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .text__descr {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .left__text {
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.36em;
+    margin-bottom: 0;
+  }
+
+  .form {
+    margin: 35px auto;
+    width: 150%;
+    padding: 30px;
+  }
+
+  .brend__svg {
+    margin-top: 9px;
+    width: 197px;
+  }
+  
+}
+
+@media (max-width: 1250px) {
+  .form {
+    width: 130%;
+  }
+}
+
+@media (max-width: 1180px) {
+
+
+  .brend__svg {
+    margin-top: 9px;
+    width: 198px;
+    height: 31px;
+    flex-shrink: 0;
+  }
+
+  .main__right {
+    width: 44%;
+  }
+  
+  
+}
+
+@media (max-width: 930px) {
+
+
+  .text__contacts {
+    width: 46%;
+  }
+
+  .left__text {
+    letter-spacing: 0.35em;
+  }
+
+}
+
+@media (max-width: 835px) {
+
+
+  .main {
+    padding: 20px 40px;
+  }
+
+  .main__logo__title {
+    font-size: 12px;
+    line-height: 32px;
+    padding: 8px 25px;
+    margin-bottom: 42px;
+    letter-spacing: 0.3em;
+  }
+
+  .main__logo {
+    margin-right: 34px;
+  }
+
+  .text__contacts {
+    width: 33%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .brend__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-right: 0;
+  }
+
+  .brend__svg {
+    margin-top: 13px;
+    width: 207px;
+    height: 31px;
+  }
+
+  .text__descr {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .left__text {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.61em;
+  }
+
+  .main__right {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form title {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    letter-spacing: 0.2em;
+  }
+
+  .form input {
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    width: 60%;
+  }
+
+  button {
+    font-size: 12px;
+    line-height: 28px;
+  }
+  
+}
+
+@media (max-width: 650px) {
+
+
+  .main__logo__title {
+    font-size: 8px;
+    line-height: 12px;
+    padding:  8px;
+  }
+
+  .logo__svg {
+    width: 149px;
+    height: 73px;
+  }
+
+  .text__contacts {
+    font-size: 10px;
+    line-height: 14px;
+    width: 30%;
+  }
+
+  .brend__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .text__descr {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .brend__svg {
+    margin-top: 5px;
+    width: 129px;
+    height: 32px;
+  }
+
+  .left__text{
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.85em;
+  }
+
+}
+
+@media (max-width: 580px) {
+
+
+  .main__logo__title {
+    margin-bottom: 24px;
+  }
+
+  .main__logo {
+    margin-right: 15px;
+  }
+
+  .brend__title {
+    font-size: 25px;
+  } 
+
+  .text__descr {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .left__text {
+    font-size: 13px;
+    letter-spacing: 0.327em;;
+  }
+
+  .text__contacts {
+    width: 34%;
+    margin-bottom: 0px;
+  }
+
+  .left__content {
+    margin-bottom: 10px;
+  }
+
+  .right__title {
+    font-size: 14px;
+  }
+
+  .form__input {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 7px 10px;
+  }
+
+  .btn-primary {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+}
+
+@media (max-width: 475px) {
+
+
+  .main {
+    padding: 28px 14px;
+  }
+  
+  .left__content {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+
+  .main__logo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0;
+  }
+
+  .main__logo__title {
+    margin-bottom: 0px;
+    font-size: 8px;
+    line-height: 12px;
+    padding: 4px 0;
+    width: 45%;
+    height: 30%;
+    letter-spacing: 0.2em;
+  }
+
+  .logo__svg {
+    width: 160px;
+    margin-right: 15px;
+    height: 71px;
+  }
+
+  .text__contacts {
+    width: 91%;
+    padding: 0px 120px 0 162px;
+    text-align: start;
+    margin-bottom: 0;
+    margin-top: -38px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .brend__content {
+    margin-top: 0;
+    width: 56%;
+  }
+
+  .brend__title {
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    line-height: 44px;
+    margin-bottom: 0;
+  }
+
+  .brend__svg {
+    flex-shrink: 0;
+    width: 73%;
+    margin-top: 10px;
+  }
+
+  .text__descr {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+  }
+
+  .left__text {
+    font-size: 10px;
+    letter-spacing: 0.27em;
+    padding: 0 0 0 3px;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+
+  .main {
+    padding: 15px 20px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 25.51%, rgba(0, 0, 0, 0) 55.96%), url(../image/Фото\ на\ 1-й\ экарн\ .jpg);
+  }
+
+  .text__contacts {
+    width: 85%;
+    padding: 0px 0 0 162px;
+  }
+
+}
+
+@media (max-width: 376px) {
+
+  .main__logo__title {
+    padding: 6px 29px;
+    width: 54%;
+    height: 37%;
+  }
+
+  .text__contacts {
+    font-size: 12px;
+    width: 100%;
+    padding: 0px 0 0 162px;
+    letter-spacing: 0.21em;
+  }
+
+  .brend__title {
+    font-size: 37px;
+    margin-right: 5px;
+  }
+
+  .brend__svg {
+    width: 192px;
+  }
+
+  .text__descr {
+    width: 100%;
+    font-size: 37px;
+    letter-spacing: 0.21em;
+  }
+
+  .left__content {
+    margin-bottom: 8px;
+  }
+
+  .left__text {
+    font-size: 11px;
+    letter-spacing: 0.32em;
+  }
+
+}
